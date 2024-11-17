@@ -1,0 +1,13 @@
+financial-data-analysis/
+│
+├── data/
+│   └── stocks_data.csv                    # CSV file containing stock data
+│
+├── scripts/
+│   ├── create_database.py                 # Script to create the SQLite database
+│   ├── import_data.py                     # Script to import data from CSV to SQL
+│   ├── analysis.py                        # Script for financial analysis using SQL and Python
+│
+├── requirements.txt                       # Dependencies file
+├── README.md                              # Project description
+└── financial_data.db                      # SQLite database (created by the create_database.py script)
